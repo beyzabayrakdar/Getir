@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ioo2F93bZeNEmXGHcMJOkaVIU3HHPuS1A4iVGHGdiCpXTRsb/+z5vuJEsfU9+8IQp239hhzk2syZLrOwabB9pw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\syncfusion.licensing\\19.1.0.56\\syncfusion.licensing.19.1.0.56.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\syncfusion.xamarin.core\\19.1.0.56\\syncfusion.xamarin.core.19.1.0.56.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\19.1.0.56\\syncfusion.xamarin.sfcombobox.19.1.0.56.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
