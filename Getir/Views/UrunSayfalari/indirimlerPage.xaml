@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Getir.Views.UrunSayfalari.indirimlerPage"
-             Title="                          getir">
-    <ContentPage.Content>
+             Title="                        getir">
+    <ScrollView>
         <StackLayout BackgroundColor="White">
             <StackLayout BackgroundColor="#7849f7">
                 <ScrollView Orientation="Horizontal">
@@ -107,8 +107,62 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="120"/>
                     </Grid.RowDefinitions>
+                    <ImageButton Source="cocoPops.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <ImageButton Source="unoGurmeHamburger.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <ImageButton Source="unoGurmeSandvic.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="₺19,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="₺12,45" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="₺11,75" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Coco Pops Şenlik Paketi" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="Uno Gurme Hamburger Ekmeği" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="Uno Gurme Sandviç Ekmeği" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="4 Ürün" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="4'lü" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" HorizontalOptions="Center" Grid.Row="0" />
+                    <Label Text="5'li" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
                     <ImageButton Source="muhallebiBoyoz.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <ImageButton Source="danetteMozaik-Joyu.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <ImageButton Source="danetteMozaik.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
                     <ImageButton Source="danetteMagnolet.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
                 </Grid>
                 <Grid>
@@ -120,9 +174,9 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="25"/>
                     </Grid.RowDefinitions>
-                    <Label Text="₺18,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="₺33,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="₺99,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                    <Label Text="₺29,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="₺4,60" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" HorizontalOptions="Center" Grid.Row="0" />
+                    <Label Text="₺4,60" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
                 </Grid>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -133,9 +187,9 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="45"/>
                     </Grid.RowDefinitions>
-                    <Label Text="Ülker Sütlü" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="Tadım Yer Fıstıklı" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="Magnum Badem" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                    <Label Text="Muhallebili Boyoz" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="Danette Mix Joy Mozaik" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="Danette Mix Joy Magnolet" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
                 </Grid>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -146,173 +200,12 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="25"/>
                     </Grid.RowDefinitions>
-                    <Label Text="60 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="30 g" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" HorizontalOptions="Center" Grid.Row="0" />
-                    <Label Text="100 ml" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                    <Label Text="6'lı" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="100 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="100 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
                 </Grid>
             </StackLayout>
-            <StackLayout>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="120"/>
-                    </Grid.RowDefinitions>
-                    <ImageButton Source="unoTostEkmegi.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <ImageButton Source="unoTamBugdayliEkmek.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <ImageButton Source="cpBuyukBoy.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="₺5,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="₺9,75" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" HorizontalOptions="Center" Grid.Row="0" />
-                    <Label Text="₺18,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="45"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="UNO Tost Ekmeği" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="UNO Tam Buğdaylı Ekmek" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="CP Büyük Boy" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="350 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="350 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="15'li" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-            </StackLayout>
-            <StackLayout>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="120"/>
-                    </Grid.RowDefinitions>
-                    <ImageButton Source="sutasSuzmePeynir.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <ImageButton Source="AnkaraBurma.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <ImageButton Source="jambonCedarMega.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="₺20,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="₺3,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="₺24,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="45"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="Sütaş Süzme Peynir" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="Nuh'un Ankara Burgu" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="Jambon Cheddar Mega" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="500 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="500 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="230 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-            </StackLayout>
-            <StackLayout>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="120"/>
-                    </Grid.RowDefinitions>
-                    <ImageButton Source="patates.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <ImageButton Source="kokteylDomates.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <ImageButton Source="domestos.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="₺9,5" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="₺7,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="₺8,45" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="45"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="Patates" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="Kokteyl Domates" TextTransform="None" HorizontalOptions="Center" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="Domestos Dağ Esintisi" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25"/>
-                    </Grid.RowDefinitions>
-                    <Label Text="2 kg" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                    <Label Text="500 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
-                    <Label Text="750 ml" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
-                </Grid>
-            </StackLayout>
+            
             <StackLayout BackgroundColor="White">
                 <Label Margin="15"  Text=" Getir'i indirin!" TextColor="#5d3ebc" FontSize="Large"/>
 
@@ -326,5 +219,5 @@
                 <Button Text="İş ortağımız olmak ister misiniz?" BackgroundColor="White" HorizontalOptions="Start" TextTransform="None" Margin="5" TextColor="#5d3ebc" FontSize="Medium"/>
             </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>

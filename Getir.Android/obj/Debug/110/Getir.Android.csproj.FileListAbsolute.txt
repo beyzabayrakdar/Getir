@@ -1379,3 +1379,9 @@ C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\android\assets\Plugi
 C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\android\assets\Plugin.Settings.Abstractions.dll.mdb
 C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\android\assets\Plugin.Settings.dll
 C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\android\assets\Plugin.Settings.dll.mdb
+C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\res\drawable\cocopops.jpeg
+C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\res\drawable\unogurmehamburger.jpeg
+C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\res\drawable\danettemozaik.jpeg
+C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\res\drawable\danettemagnolet.jpeg
+C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\res\drawable\unogurmesandvic.jpeg
+C:\Users\pc\Desktop\Getir\Getir\Getir.Android\obj\Debug\110\res\drawable\muhallebiboyoz.jpeg
