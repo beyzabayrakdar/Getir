@@ -28,5 +28,10 @@ namespace Getir.Views.Urunler
                 adet = Convert.ToInt32((picker.ItemsSource[selectedIndex] as string)[0].ToString());
             }
         }
+
+        private void Stepper_OnValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            Label1.Text = e.NewValue.ToString(); ;
+        }
     }
 }

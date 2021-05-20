@@ -30,6 +30,11 @@ namespace Getir.Views.Urunler
             }
         }
 
-        
+        private void Stepper_OnValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            Label1.Text = e.NewValue.ToString();;
+        }
+
+
     }
 }

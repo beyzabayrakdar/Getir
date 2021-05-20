@@ -37,7 +37,6 @@ C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Page2.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Page3.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Page4.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\GirisYapPage.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\KampanyalarPage.xaml.g.cs
@@ -72,3 +71,5 @@ C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\UrunSayfala
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\Urunler\polonezPastirmaPage.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\Urunler\herbyFitElmaPage.xaml.g.cs
 C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\Urunler\hertaneZeytinPage.xaml.g.cs
+C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\GirisPage.xaml.g.cs
+C:\Users\pc\Desktop\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\KaydolPage.xaml.g.cs

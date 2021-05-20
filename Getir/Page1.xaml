@@ -8,11 +8,9 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                <Button HeightRequest="40" WidthRequest="400" Text="Teslimat Adresini Belirle "
-TextTransform="None" HorizontalOptions="Start" BackgroundColor="White" TextColor="#525252" Margin="-5">
+                <Button HeightRequest="40" WidthRequest="400" Text="Teslimat Adresini Belirle " TextTransform="None" HorizontalOptions="Start" BackgroundColor="White" TextColor="#525252" Margin="-5">
                     <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource"
-Android="location.png"></OnPlatform>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="location.png"></OnPlatform>
                     </Button.Image>
                 </Button>
             </StackLayout>
@@ -37,14 +35,12 @@ Android="location.png"></OnPlatform>
             <StackLayout>
                 <Button Text="Facebook ile devam et" TextTransform="None" TextColor="#3c5a99" FontSize="Medium" BackgroundColor="#transparent">
                     <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource"
-Android="facebook.png"></OnPlatform>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="facebook.png"></OnPlatform>
                     </Button.Image>
                 </Button>
                 <Button Text="Getir şifresi ile devam et" TextTransform="None" TextColor="#5d3ebc" FontSize="Medium" BackgroundColor="#transparent">
                     <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource"
-Android="facebook.png"></OnPlatform>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="facebook.png"></OnPlatform>
                     </Button.Image>
                 </Button>
             </StackLayout>

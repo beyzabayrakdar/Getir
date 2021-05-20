@@ -14842,55 +14842,58 @@ namespace Getir.Droid
 			public const int rufflesOriginals = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int sutasSuzmePeynir = 2131165444;
+			public const int shoppingBasket = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int tadimYerFistikli = 2131165445;
+			public const int sutasSuzmePeynir = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int teknoloji = 2131165446;
+			public const int tadimYerFistikli = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int temelGida = 2131165447;
+			public const int teknoloji = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int test_custom_background = 2131165448;
+			public const int temelGida = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int tooltip_frame_dark = 2131165449;
+			public const int test_custom_background = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int tooltip_frame_light = 2131165450;
+			public const int tooltip_frame_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ulkerSutlu = 2131165451;
+			public const int tooltip_frame_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int unoGurmeHamburger = 2131165452;
+			public const int ulkerSutlu = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int unoGurmeSandvic = 2131165453;
+			public const int unoGurmeHamburger = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int unoTamBugdayliEkmek = 2131165454;
+			public const int unoGurmeSandvic = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int unoTostEkmegi = 2131165455;
+			public const int unoTamBugdayliEkmek = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int user = 2131165456;
+			public const int unoTostEkmegi = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int xamarin_logo = 2131165457;
+			public const int user = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int yasam = 2131165458;
+			public const int xamarin_logo = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int yeniUrunler = 2131165459;
+			public const int yasam = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int yiyecek = 2131165460;
+			public const int yeniUrunler = 2131165460;
+			
+			// aapt resource value: 0x7F070115
+			public const int yiyecek = 2131165461;
 			
 			static Drawable()
 			{

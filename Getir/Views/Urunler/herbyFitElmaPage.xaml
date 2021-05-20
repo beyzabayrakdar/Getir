@@ -11,17 +11,10 @@
                 <ImageButton Source="herbyFitElma.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
             </StackLayout>
             <StackLayout>
-                <Picker x:Name="picker" Title="  1" TitleColor="White" HorizontalOptions="Center" TextColor="White" BackgroundColor="#7849f7"  WidthRequest="40" SelectedIndexChanged="picker_SelectedIndexChanged">
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>1</x:String>
-                            <x:String>2</x:String>
-                            <x:String>3</x:String>
-                            <x:String>4</x:String>
-                            <x:String>5</x:String>
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
+                <Label Text="1" x:Name="Label1" HorizontalOptions="Center" BackgroundColor="#7849f7" TextColor="white" FontSize="Large"/>
+            </StackLayout>
+            <StackLayout>
+                <Stepper Maximum="10" Minimum="1" HorizontalOptions="Center" ValueChanged="Stepper_OnValueChanged"/>
             </StackLayout>
             <StackLayout Margin="25" >
                 <Label Text="Herby Fit Tea Elme Sirkeli Ananas Diyet Çayı" TextTransform="None" TextColor="#7849f7" FontSize="Large" />

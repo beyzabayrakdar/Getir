@@ -83,7 +83,7 @@
         <ShellContent  Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
     </TabBar>
     
-    <FlyoutItem Title="Beyza" Icon="user.png">
+    <FlyoutItem Title="User" Icon="user.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Kampanyalar" Icon="giftbox.png">

@@ -27,7 +27,7 @@ namespace Getir.Views
         }
         private async void girisYapPage_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new girisYapPage());
+            await Navigation.PushAsync(new GirisPage());
         }
     }
 

@@ -4,12 +4,13 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using DLToolkit.Forms.Controls;
+using System.IO;
 
 namespace Getir
 {
     public partial class App : Application
     {
-
+        
         public App()
         {
             MainPage = new Header(new Page1())
